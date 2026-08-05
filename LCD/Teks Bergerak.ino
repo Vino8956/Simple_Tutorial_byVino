@@ -1,3 +1,7 @@
+//CODE BY VINO8956
+//Menampilkan teks yang bergerak seperti sedang mengetik
+//Terimakasih sudah visit :)
+
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -16,8 +20,8 @@ void setup() {
 }
 
 void loop() {
-  typeWrite(0, "Loading System...", 150);
-  typeWrite(1, "Access Granted!", 100);
+  typeWrite(0, "Tunggu...", 150);
+  typeWrite(1, "Terimakasih!", 100);
   delay(2000);
   
   lcd.clear();
